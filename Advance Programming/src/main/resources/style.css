@@ -1,0 +1,41 @@
+/* src/main/resources/styles.css */
+
+.root {
+  -fx-font-family: "Segoe UI", sans-serif;
+  -fx-background-color: #f0f4f8;
+}
+
+/* Top header bar */
+.header-bar {
+  -fx-background-color: #004d99;
+  -fx-padding: 10 20;
+  -fx-alignment: center-left;
+  -fx-spacing: 10;
+}
+.header-bar .label {
+  -fx-text-fill: white;
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+}
+
+/* Chat area */
+.chat-area {
+  -fx-background-color: white;
+  -fx-background-radius: 8;
+  -fx-padding: 10;
+}
+
+/* Input bar */
+.input-bar {
+  -fx-background-color: #ffffff;
+  -fx-padding: 10;
+  -fx-alignment: center-left;
+  -fx-spacing: 5;
+}
+.input-bar .text-field {
+  -fx-pref-width: 400;
+}
+.input-bar .button {
+  -fx-background-color: #004d99;
+  -fx-text-fill: white;
+}
